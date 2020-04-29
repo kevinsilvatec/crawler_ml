@@ -7,9 +7,9 @@
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "crawler": "^1.2.1",
-    "express": "^4.17.1"
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
