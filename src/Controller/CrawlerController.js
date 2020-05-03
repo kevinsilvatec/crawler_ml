@@ -7,6 +7,20 @@ module.exports = {
 
         let {search, limit} = req.body;
 
+        if(!search || search == "" || search == null){
+            res.json({
+                code: "500",
+                message: "O campo search é obrigatório!"
+            });        
+        }
+
+        if(!limit || limit == "" || limit == null){
+            res.json({
+                code: "500",
+                message: "O campo limit é obrigatório!"
+            });        
+        }
+
         if(!Number.isInteger(limit)){
             res.json({
                 code: "500",
@@ -17,9 +31,10 @@ module.exports = {
         if(limit > 50){
             res.json({
                 code: "500",
-                message: "O campo tem tamanho máximo de 50!"
+                message: "O campo limit tem tamanho máximo de 50!"
             });
         }
+
 
 
         var url = `https://lista.mercadolivre.com.br/${search}#D[A:${search}]`;
