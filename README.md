@@ -36,3 +36,5 @@ Desenvolvendo a aplicação encontrei alguns percalços e, no fim das contas, ac
 - Autenticação JWT (Afinal, o que é uma API sem autenticação?).
 
 Já sei como fazer essas implementações (principalmente a relacionada à paginação). Apenas não tive muito tempo para fazê-las. A aplicação está quase que totalmente baseada em callbacks (o que pode ser confuso pra quem não utiliza habitualmente), mas creio que o fluxo é bem segmentado, os arquivos estão bem separados e há uma sequencia de execução razoalvelmente bem definida. Estou aberto a quaisquer feedbacks e espero que dê tudo certo! Foi divertido fazer essa tarefa!
+
+PS: Dependendo da quantidade de anúncios enviada na chamada e da velocidade de conexão, pode ser necessário utilizar um timeout um pouco maior no postman.
