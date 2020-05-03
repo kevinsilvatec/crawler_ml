@@ -6,8 +6,8 @@ Aplicação para coletar informações de anúncios no Mercado Livre utilizando 
 
 - Cheerio: Para utilizar seletores jQuery e fazer a navegação dos elementos retornados no body;
 - Express: Utilizado para criar as rotas e receber as requisições http;
-- FS: Para criação de arquivos temporários para facilitar a iteração dos objetos.
-- Request: Para buscar o body das páginas do ML;
+- FS: Para criação de arquivos temporários para facilitar a iteração dos objetos;
+- Request: Para buscar o body das páginas do ML.
 
 # Rodando a aplicação
 
@@ -15,7 +15,7 @@ Essa aplicação foi desenvolvida em JS utilizando a plataforma NodeJS. Para rod
 
 # Rotas
 
-A aplicação possui duas rotas acessíveis. _/_ e _/search_
+A aplicação possui duas rotas acessíveis: _/_ e _/search_
 
 ## /
 - Método: GET;
