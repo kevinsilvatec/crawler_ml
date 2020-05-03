@@ -27,8 +27,8 @@ A aplicação possui duas rotas acessíveis: _/_ e _/search_
 - Método: POST;
 - Função: retornar os anúncios saneados do mercado livre saneados;
 - Chamada: _{_
-                _"search": "ferramentas",_
-                _"limit": 20_
+                _"search": "string",_
+                _"limit": int_
            _}_
 - Retorno: jSON.
 
