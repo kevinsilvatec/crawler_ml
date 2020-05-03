@@ -20,11 +20,16 @@ A aplicação possui duas rotas acessíveis: _/_ e _/search_
 ## /
 - Método: GET;
 - Função: Testar a aplicação;
+- Chamada: -
 - Retorno: jSON.
 
 ## /search
 - Método: POST;
 - Função: retornar os anúncios saneados do mercado livre saneados;
+- Chamada: _{_
+                _"search": "ferramentas",_
+                _"limit": 20_
+           _}_
 - Retorno: jSON.
 
 # Observações
