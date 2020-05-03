@@ -65,9 +65,7 @@ module.exports = {
     createAdsInitialArray(body, limit){
         const arrAdsInitial = []; 
         
-        let $ = cheerio.load(body); 
-        //VERIFICAÇÃO DE LIMIT DEVERÁ SER FEITA AQUI PARA INTEGRAR A PAGINAÇÃO
-        //USAR O THIS.LENGTH
+        let $ = cheerio.load(body);
     
         $('#searchResults li.article').each(function(index){
             let adId = $(this).find('div.rowItem').attr('id');
