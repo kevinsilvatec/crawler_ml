@@ -4,10 +4,10 @@ Aplicação para coletar informações de anúncios no Mercado Livre utilizando 
 
 # Dependências
 
-Cheerio: Para utilizar seletores jQuery e fazer a navegação dos elementos retornados no body;
-Express: Utilizado para criar as rotas e receber as requisições http;
-FS: Para criação de arquivos temporários para facilitar a iteração dos objetos.
-Request: Para buscar o body das páginas do ML;
+- Cheerio: Para utilizar seletores jQuery e fazer a navegação dos elementos retornados no body;
+- Express: Utilizado para criar as rotas e receber as requisições http;
+- FS: Para criação de arquivos temporários para facilitar a iteração dos objetos.
+- Request: Para buscar o body das páginas do ML;
 
 # Rodando a aplicação
 
