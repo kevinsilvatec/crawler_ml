@@ -18,14 +18,14 @@ Essa aplicação foi desenvolvida em JS utilizando a plataforma NodeJS. Para rod
 A aplicação possui duas rotas acessíveis. _/_ e _/search_
 
 ## /
-Método: GET;
-Função: Testar a aplicação;
-Retorno: jSON.
+- Método: GET;
+- Função: Testar a aplicação;
+- Retorno: jSON.
 
 ## /search
-Método: POST;
-Função: retornar os anúncios saneados do mercado livre saneados;
-Retorno: jSON.
+- Método: POST;
+- Função: retornar os anúncios saneados do mercado livre saneados;
+- Retorno: jSON.
 
 # Observações
 Desenvolvendo a aplicação encontrei alguns percalços e, no fim das contas, acabou dando um pouco mais de trabalho do que esperava. Como estou trabalhando, algumas madrugadas foram invadidas para concluir em tempo e, mesmo assim, ainda enxergo algumas implementações que podem ser feitas e que pretendo fazer nesse código para dá-lo mais robustez, dinâmica e perfomance. Algumas implementações que farei: 
