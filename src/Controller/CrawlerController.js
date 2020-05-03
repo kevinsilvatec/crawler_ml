@@ -80,7 +80,6 @@ module.exports = {
             let firstFileUrl = './json/tempPrincipal.json.txt';
             let secondFileUrl = './json/tempStores.json.txt';
             let finalObject = fileHelper.mergeFiles(firstFileUrl, secondFileUrl);
-            // console.log(finalObject);
             res.json(finalObject);
         }
 
